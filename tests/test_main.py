@@ -60,7 +60,7 @@ class TestDateCollection():
 class TestYandex():
 
     def test_YD_create_folder(self):
-        folder_name = 'Netology\homework'
+        folder_name = 'Netology homework'
         YD_delete_folder(folder_name)
         res = YD_create_folder(folder_name)
         expected = 201
